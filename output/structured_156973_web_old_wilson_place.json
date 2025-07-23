@@ -1,0 +1,16 @@
+main: loading model: /home/user/Tech/LLM/models/llava/llava-v1.5-13b-Q4_0.gguf
+encoding image or slice...
+image/slice encoded in 3256 ms
+decoding image batch 1/1, n_tokens_batch = 576
+image decoded (batch 1/1) in 92085 ms
+
+ {
+"scene": "Victorian mansion",
+"objects": ["porch", "stairs", "columns", "balcony"],
+"architectural\_style": "Victorian",
+"notable\_features": ["tower", "porch", "stairs", "columns", "balcony"],
+"estimated\_time\_period": "19th century",
+"locations": ["yard", "porch", "stairs", "columns", "balcony"],
+"reasoning": "The image features a large, old Victorian mansion with a tower, porch, stairs, columns, and a balcony. The architectural style, along with the presence of a yard, suggests that the mansion was built in the 19th century. The black and white photo adds to the historical and nostalgic atmosphere of the scene.",
+"description": "A Victorian mansion with a tower, porch, stairs, columns, and a balcony, set in a yard. The black and white photo adds to the historical and nostalgic atmosphere of the scene."
+}

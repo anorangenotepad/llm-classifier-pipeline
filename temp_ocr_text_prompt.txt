@@ -1,0 +1,129 @@
+[INST] You are a historical document summarization assistant.
+
+image_title: "700 4th St W _ National or State Registers Record _ Wisconsin Historical Society"
+Below is the OCR-extracted text from a scanned historical document:
+
+
+
+5/25/25, 1:53 PM 700 4th St W | National or State Registers Record | Wisconsin Historical Society
+
+NATIONAL OR STATE REGISTERS RECORD
+700 4th St W
+
+National or State Register of Historic Places
+
+NAMES
+
+Historic Name: Menomonie Omaha Depot
+Reference Number: 100002856
+
+PROPERTY LOCATION
+
+Location (Address): 700 4th St W
+County: Dunn
+
+City/Village: Menomonie
+Township:
+
+SUMMARY
+
+Menomonie Omaha Depot
+
+700 4th Street West, Menomonie, Dunn County
+
+Date of Construction: 1906
+
+The railroad depot was an important civic building and in essence was to
+the modern city what the city gate was to the ancient cities. The depot
+housed the arrival and departure of travelers. Externally the most
+conspicuous part of the railroad depot became its silhouette. Late-
+nineteenth and early- to mid-twentieth century train passengers became
+familiar with the long rectangular buildings, wide sheltering overhangs and
+asymmetrical designs of the small town depot. The one-sided depots
+enabled passengers to board or disembark a train safely, without having to
+cross the train tracks. Such buildings continued in use throughout the
+United States for decades without many modifications. Passenger travel
+stimulated economic growth by allowing people to be mobile for business
+opportunities.
+
+At the turn of the century, the Chicago, St. Paul, Minneapolis & Omaha
+Railroad recognized the growing passenger market in Menomonie and
+provided the city a more substantial passenger station replacing the small
+
+drafty 1880 station. The 1905 blueprints were designed by nationally
+https://www.wisconsinhistory.org/Records/NationalRegister/NR2596 2/8
+
+5/25/25, 1:53 PM 700 4th St W | National or State Registers Record | Wisconsin Historical Society
+
+recognized architect Horace P. Padley. During this period in his career he
+was an architect in the office of Engineering for the Chicago, St. Paul,
+Minneapolis & Omaha Railroad. Whether small or large, each depot
+received suggestions from the community. By 1916, more than 85,000
+depots and stations had been constructed throughout the United States.
+
+From 1906 to 1961, the Menomonie Omaha Depot served as a hub for
+arrivals and departures of daily trains linking Menomonie residents with the
+rest of the country. It was the center of modern transportation allowing
+Menomonie residents to travel for business, vacation, or to visit friends and
+relatives living in other places. Americans enjoyed mobility and would use
+rail travel until the 1950s and 1960s when Americans would fall in love with
+the automobile. The automobile offered unique, private and independent
+travel.
+
+The depot continues to be an area landmark and a symbol of the nineteenth
+and twentieth-century railroad industry. Most importantly, it remains as an
+excellent example of how the railroad industry and the passenger depot
+enhanced the growth of the country and small logging towns such as
+Menomonie, Wisconsin.
+
+PROPERTY FEATURES
+
+Period of Significance: 1906-1961
+
+Area of Significance: Transportation
+
+Applicable Criteria: Event
+
+Historic Use: Transportation: Rail-Related
+
+Architectural Style: Late 19th And Early 20th Century American
+Movements
+
+Resource Type: Building
+
+Architect: Horace P. Padley
+
+DESIGNATIONS
+
+Historic Status: Listed in the State Register
+Historic Status: Listed in the National Register
+National Register Listing Date: 09/04/2018
+State Register Listing Date: 05/18/2018
+
+NUMBER OF RESOURCES WITHIN PROPERTY
+
+Number of Contributing Buildings: 1
+Number of Contributing Sites: 0
+
+Number of Contributing Structures: 0
+Number of Contributing Objects: 0
+Number of Non-Contributing Sites: 0
+Number of Non-Contributing Structures: 0
+Number of Non-Contributing Objects: 0
+
+https://www.wisconsinhistory.org/Records/NationalRegister/NR2596
+
+Please return a JSON object containing:
+{
+  "image_title": "filename",
+  "summary": "Short summary of the document",
+  "scene": "Brief scene description",
+  "objects": ["object1", "object2"],
+  "architectural_style": "Architectural style if mentioned or implied",
+  "notable_features": ["feature1", "feature2"],
+  "estimated_time_period": "Rough time period (e.g. 1800s, mid-20th century)",
+  "locations": ["region, city, or environment clues"],
+  "reasoning": "Why you chose these values based on the text"
+}
+Only output valid, plain text JSON. Do not include anything outside the JSON block. Avoid escape sequences unless absolutely required for content.
+[/INST]

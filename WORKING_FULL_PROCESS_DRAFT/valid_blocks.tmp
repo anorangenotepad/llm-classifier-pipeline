@@ -1,0 +1,2 @@
+{  "image_title": "filename",  "best_match": "label",  "confidence_score": "high / medium / low",  "reasoning": "string"}
+{  "image_title": "depot_dunn_county",  "best_match": "Train Depot",  "confidence_score": "high",  "reasoning": "Description includes 'Menomonie Omaha Depot' and 'Rail-Related'. Architectural style is consistent with Late 19th and Early 20th Century American Movements for train depots."}

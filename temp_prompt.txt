@@ -1,0 +1,34 @@
+[INST] You are a historical records analyst.
+
+image_title: "156973_web_old_wilson_place"
+Below is the description of an item:
+scene: "Victorian mansion"
+objects: ["porch", "stairs", "columns", "balcony"]
+architectural_style: "Victorian"
+notable_features: ["tower", "porch", "stairs", "columns", "balcony"]
+estimated_time_period: "19th century"
+locations: ["yard", "porch", "stairs", "columns", "balcony"]
+reasoning: "The image features a large, old Victorian mansion with a tower, porch, stairs, columns, and a balcony. The architectural style, along with the presence of a yard, suggests that the mansion was built in the 19th century. The black and white photo adds to the historical and nostalgic atmosphere of the scene."
+
+Here is a list of classification buckets:
+
+- Greek Revival Church: ['white clapboard siding', 'triangular pediment', 'symmetrical facade', 'Doric or Ionic columns', 'belfry or steeple', 'temple-front portico']
+- Colonial Farmhouse: ['steeply pitched roof', 'central chimney', 'symmetrical windows', 'clapboard siding', 'small porches']
+- Craftsman Bungalow: ['low-pitched roof', 'exposed rafters', 'tapered columns', 'broad front porch', 'wood detailing']
+- Industrial Facility: ['brick exterior', 'smokestack', 'large industrial windows', 'flat or gabled roof', 'loading docks']
+- Victorian House: ['ornate trim', 'steep roof', 'asymmetrical facade', 'bay windows', 'turrets', 'decorative gables']
+- Shotgun House: ['narrow footprint', 'aligned rooms', 'front porch', 'gable roof', 'single-story']
+- Schoolhouse (1-Room): ['bell tower', 'rectangular plan', 'evenly spaced windows', 'gabled roof', 'central entry']
+- Train Depot: ['broad eaves', 'freight loading doors', 'ticket windows', 'central cupola or tower', 'wood or brick construction']
+- Log Cabin: ['horizontal log walls', 'visible chinking', 'stone chimney', 'gable roof', 'simple layout']
+- Courthouse or Civic Building: ['domed roof', 'symmetrical facade', 'stone construction', 'grand staircase', 'columns or pilasters']
+Based on the item's description, choose the most appropriate classification bucket.
+Return only the following JSON structure:
+{
+  "image_title": "filename",
+  "best_match": "label",
+  "confidence_score": "high / medium / low",
+  "reasoning": "string"
+}
+Only output valid JSON. Do not include explanations outside the structure.
+[/INST]

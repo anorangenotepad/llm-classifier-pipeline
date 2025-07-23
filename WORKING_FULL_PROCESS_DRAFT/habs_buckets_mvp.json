@@ -1,0 +1,167 @@
+[
+  {
+    "label": "Greek Revival Church",
+    "notable_features": [
+      "white clapboard siding",
+      "triangular pediment",
+      "symmetrical facade",
+      "Doric or Ionic columns",
+      "belfry or steeple",
+      "temple-front portico"
+    ],
+    "estimated_time_period": "1825\u20131860",
+    "locations": [
+      "New England",
+      "Midwest",
+      "Appalachia",
+      "rural towns",
+      "small American villages"
+    ]
+  },
+  {
+    "label": "Colonial Farmhouse",
+    "notable_features": [
+      "steeply pitched roof",
+      "central chimney",
+      "symmetrical windows",
+      "clapboard siding",
+      "small porches"
+    ],
+    "estimated_time_period": "1600s\u2013early 1800s",
+    "locations": [
+      "New England",
+      "Mid-Atlantic",
+      "rural homesteads"
+    ]
+  },
+  {
+    "label": "Craftsman Bungalow",
+    "notable_features": [
+      "low-pitched roof",
+      "exposed rafters",
+      "tapered columns",
+      "broad front porch",
+      "wood detailing"
+    ],
+    "estimated_time_period": "1905\u20131930",
+    "locations": [
+      "West Coast",
+      "Midwest",
+      "suburban neighborhoods"
+    ]
+  },
+  {
+    "label": "Industrial Facility",
+    "notable_features": [
+      "brick exterior",
+      "smokestack",
+      "large industrial windows",
+      "flat or gabled roof",
+      "loading docks"
+    ],
+    "estimated_time_period": "1880s\u20131950s",
+    "locations": [
+      "urban centers",
+      "riversides",
+      "railway hubs"
+    ]
+  },
+  {
+    "label": "Victorian House",
+    "notable_features": [
+      "ornate trim",
+      "steep roof",
+      "asymmetrical facade",
+      "bay windows",
+      "turrets",
+      "decorative gables"
+    ],
+    "estimated_time_period": "1860\u20131900",
+    "locations": [
+      "Northeast",
+      "San Francisco",
+      "urban neighborhoods"
+    ]
+  },
+  {
+    "label": "Shotgun House",
+    "notable_features": [
+      "narrow footprint",
+      "aligned rooms",
+      "front porch",
+      "gable roof",
+      "single-story"
+    ],
+    "estimated_time_period": "1860\u20131930",
+    "locations": [
+      "New Orleans",
+      "Southern U.S.",
+      "urban neighborhoods"
+    ]
+  },
+  {
+    "label": "Schoolhouse (1-Room)",
+    "notable_features": [
+      "bell tower",
+      "rectangular plan",
+      "evenly spaced windows",
+      "gabled roof",
+      "central entry"
+    ],
+    "estimated_time_period": "1850\u20131930",
+    "locations": [
+      "Midwest",
+      "Great Plains",
+      "Appalachia",
+      "rural towns"
+    ]
+  },
+  {
+    "label": "Train Depot",
+    "notable_features": [
+      "broad eaves",
+      "freight loading doors",
+      "ticket windows",
+      "central cupola or tower",
+      "wood or brick construction"
+    ],
+    "estimated_time_period": "1850\u20131930",
+    "locations": [
+      "rail junctions",
+      "rural towns",
+      "city outskirts"
+    ]
+  },
+  {
+    "label": "Log Cabin",
+    "notable_features": [
+      "horizontal log walls",
+      "visible chinking",
+      "stone chimney",
+      "gable roof",
+      "simple layout"
+    ],
+    "estimated_time_period": "1700s\u2013mid 1800s",
+    "locations": [
+      "Appalachia",
+      "Midwest",
+      "frontier settlements"
+    ]
+  },
+  {
+    "label": "Courthouse or Civic Building",
+    "notable_features": [
+      "domed roof",
+      "symmetrical facade",
+      "stone construction",
+      "grand staircase",
+      "columns or pilasters"
+    ],
+    "estimated_time_period": "1850\u20131930",
+    "locations": [
+      "county seats",
+      "state capitals",
+      "town centers"
+    ]
+  }
+]

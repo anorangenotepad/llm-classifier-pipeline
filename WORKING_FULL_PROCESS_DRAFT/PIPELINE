@@ -1,0 +1,15 @@
+ .jpg            .pdf
+  |               |
+  v               v
+LLaVA        OCR + NLP
+  |               |
+  v               v
+image.json    text.json
+  \             /
+   \           /
+    \         /
+     \_______/         + buckets.json
+         |             |
+         v             v
+        Mistral Comparison
+   ("Given this text, which bucket is best?")

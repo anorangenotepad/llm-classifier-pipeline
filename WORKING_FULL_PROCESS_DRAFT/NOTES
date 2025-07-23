@@ -1,0 +1,161 @@
+OK, this is how this thing works
+
+ .jpg            .pdf
+  |               |
+  v               v
+LLaVA            OCR + minstral
+  |               |
+  v               v
+image.json    text.json 
+  \             /
+   \           /
+    \         /
+     \_______/         + buckets.json
+         |             |
+         v             v
+        Mistral Comparison
+   ("Given this text, which bucket is best?")
+
+
+This is how you use it (janky still as of 20250525):
+
+IMAGES WORKFLOW (LLaVA -> Mistral)
+1) put images in images directory
+2) run image_to_json.py
+   - image baked down to .json with some extra junk, and
+   - saved to output directory
+3) run json_cleaner.py
+   - json extracted from junk and saved to cleaned_output directory
+4) run compose_prompt.py
+   - image .json baked into prompt with habs_buckets_mvp.json,
+   - and a prompt that tells mistral to match image .json to bucket categories
+   - saves output to temp_prompt.txt
+5) run run_llama_run.py
+   - mistral compares image json with buckets (based on temp_prompt.txt)
+   - raw output from mistral saved to mistral_raw_ouput.txt
+6) run extract_last_json.sh
+   - mistral output kinda crummy, so need to use this method
+   - specify output as last_block.json (final list of all items)
+
+TEXT WORKFLOW (Mistral)
+-1) put .pdfs in pdf_files directory
+0a) run batch_pdf_to_images.py
+   - each page of all .pdf files in pdf_files directory is converted to an image (.png), and
+   - saved to a sub-directory in ocr_images directory named after the original .pdf
+0b) you could also put images that are not .pdf files into ocr images 
+   -  might be a good idea to also put them in a subdirectory named after them
+1) run image_ocr_batch.py
+   - uses tesseract to grab text out of images
+   - then, saves them to subdirectories in ocr_text like batch_pdf_to_images.py
+2) run compose_ocr_text_prompt.py
+   - prompt is built that grabs text from nested .txt file in ocr_text dir
+   - only grabs up to first 5000 chars to avoid overloading mistral
+   - outputs temp_ocr_text_prompt.txt
+3) run run_llama_run.py
+   - mistral looks at first 5000 chars and generates .json with specified keys
+   - raw output from misral saved to mistral_raw_output.txt
+4) run extract_last_json.sh
+   - specify output as cleaned_ouput/structured_original_filename.json
+4) run compose_prompt.py
+   - cleaned_output .json baked into prompt with habs_buckets_mvp.json,
+   - and a prompt that tells mistral to match text .json to bucket categories
+   - saves output to temp_prompt.txt
+5) run run_llama_run.py
+   - mistral compares image json with buckets (based on temp_prompt.txt)
+   - raw output from mistral saved to mistral_raw_ouput.txt
+6) run extract_last_json.sh
+   - mistral output kinda crummy, so need to use this method
+   - specify output as last_block.json (final list of all items)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# LLAMA.CPP WORKFLOW
+
+## manual (chat based)
+
+llava terminal commands:
+cd ~/Tech/LLM/llama.cpp/build
+./bin/llama-mtmd-cli -m ~/Tech/LLM/models/llava/llava-v1.5-13b-Q4_0.gguf --mmproj ~/Tech/LLM/models/llava-mmproj/mmproj-model-f16.gguf --chat-template vicuna
+
+then:
+/image /path/to/image.jpg (in the chat)
+
+next:
+what is the conent of this image?
+
+llava answers (hopefully)
+
+minstral:
+./bin/llama-cli   -m ~/Tech/LLM/models/minstral/mistral-7b-instruct-v0.2.Q4_0.gguf  --chat-template mistral-instruct
+
+this one works for matching image json to external prompt (.txt)
+/home/user/Tech/LLM/llama.cpp/build/bin/llama-cli \
+  -m ~/Tech/LLM/models/minstral/mistral-7b-instruct-v0.2.Q4_0.gguf \
+  --n-predict 400 \
+  --prompt "$(cat temp_prompt.txt)"
+
+
+## batch (command based)
+cd ~/Tech/LLM/llama.cpp/build
+./bin/llama-mtmd-cli   -m ~/Tech/LLM/models/llava/llava-v1.5-13b-Q4_0.gguf   --mmproj ~/Tech/LLM/models/llava-mmproj/mmproj-model-f16.gguf   --image ~/Tech/LLM/images/R0013713.JPG   --prompt "Return a JSON object describing this image with keys: 'scene', 'objects', and 'mood'."   --chat-template vicuna   > /home/user/Tech/LLM/output/structured_R0013713.json
+
+OR
+
+/home/user/Tech/LLM/llama.cpp/build/bin/llama-mtmd-cli   -m ~/Tech/LLM/models/llava/llava-v1.5-13b-Q4_0.gguf   --mmproj ~/Tech/LLM/models/llava-mmproj/mmproj-model-f16.gguf   --image ~/Tech/LLM/images/Maygraduation25-HP-promo.jpg   --prompt "Return a JSON object describing this image with keys: 'scene', 'objects', and 'mood'."   --chat-template vicuna   > /home/user/Tech/LLM/output/structured_Maygrad.json
+
+
+llava sends output to 'output' directory
+NOTE: will need to clean a bit, but perfectly structured json
+NOTE: USE ABSOLUTE PATHS wherever possible to prevent llava freeze-up
+
+
+PYTHON
+#activate venv
+source venv-llm/bin/activate
+
+
+
+
+
+
+
+
+
+#########################################################################################
+OLD DONT USE THIS FOR CURRENT LLAMA.CPP WORKFLOW
+
+
+
+#first create venv (if not already created)
+python -m venv venv-llm
+
+#Then activate it
+source venv-llm/bin/activate
+
+#install this (like this)
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+
+#then, everything below
+pip install transformers accelerate bitsandbytes
+pip install sentencepiece
+pip install opencv-python
+pip install matplotlib
+pip install git+https://github.com/openai/CLIP.git

@@ -1,0 +1,15 @@
+main: loading model: /home/user/Tech/LLM/models/llava/llava-v1.5-13b-Q4_0.gguf
+encoding image or slice...
+image/slice encoded in 3683 ms
+decoding image batch 1/1, n_tokens_batch = 576
+image decoded (batch 1/1) in 88026 ms
+
+ {
+"scene": "Depot at Monon, Wisconsin",
+"objects": ["train station", "train tracks", "train car"],
+"architectural\_style": "Victorian",
+"notable\_features": ["train depot", "train tracks", "train car"],
+"estimated\_time\_period": "19th century",
+"locations": ["Monon, Wisconsin"],
+"reasoning": "The image is an old black and white photograph of a train depot at Monon, Wisconsin. The depot features a Victorian architectural style, and the train tracks are visible in the scene. The train car is parked at the depot, indicating that it is a central location for train transportation in the area. The presence of a person in the image suggests that the depot was a hub of activity during its time. Overall, the image captures a moment from the past, showcasing the importance of train transportation in the 19th century."
+}

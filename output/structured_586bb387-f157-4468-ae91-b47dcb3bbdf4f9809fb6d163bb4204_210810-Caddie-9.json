@@ -1,0 +1,16 @@
+main: loading model: /home/user/Tech/LLM/models/llava/llava-v1.5-13b-Q4_0.gguf
+encoding image or slice...
+image/slice encoded in 2705 ms
+decoding image batch 1/1, n_tokens_batch = 576
+image decoded (batch 1/1) in 85864 ms
+
+ {
+"scene": "A wooden cabin with a sign on the door",
+"objects": ["a wooden cabin with a sign on the door"],
+"architectural\_style": "log cabin",
+"notable\_features": ["log cabin construction, sign on the door"],
+"estimated\_time\_period": "19th century",
+"locations": ["a grassy area with trees in the background"],
+"reasoning": "The cabin appears to be a log cabin, which was a popular architectural style in the 19th century. The presence of a sign on the door suggests that it might be a historical site or a place of interest. The grassy area and trees in the background further indicate that the cabin is located in a natural setting, possibly in a rural or remote area.",
+"description": "A wooden cabin with a sign on the door, likely from the 19th century, situated in a grassy area with trees in the background."
+}

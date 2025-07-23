@@ -1,0 +1,16 @@
+main: loading model: /home/user/Tech/LLM/models/llava/llava-v1.5-13b-Q4_0.gguf
+encoding image or slice...
+image/slice encoded in 2967 ms
+decoding image batch 1/1, n_tokens_batch = 576
+image decoded (batch 1/1) in 85264 ms
+
+ {
+"scene": "A large brick building with a hole in the roof",
+"objects": ["A large brick building", "A hole in the roof"],
+"architectural\_style": "Brick",
+"notable\_features": ["A hole in the roof"],
+"estimated\_time\_period": "19th century",
+"locations": ["A city street"],
+"reasoning": "The building appears to be old and has a hole in the roof, indicating that it might be abandoned or neglected. The architectural style is brick, which was commonly used in the 19th century. The presence of a city street suggests that the building is located in an urban area.",
+"description": "An old brick building with a hole in the roof, situated on a city street."
+}

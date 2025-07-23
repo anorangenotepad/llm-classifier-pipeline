@@ -1,0 +1,16 @@
+main: loading model: /home/user/Tech/LLM/models/llava/llava-v1.5-13b-Q4_0.gguf
+encoding image or slice...
+image/slice encoded in 5679 ms
+decoding image batch 1/1, n_tokens_batch = 576
+image decoded (batch 1/1) in 111481 ms
+
+ {
+"scene": "A large brick building with a clock tower and a green roof",
+"objects": ["A bench on the sidewalk in front of the building"],
+"architectural\_style": "Medieval",
+"notable\_features": ["A clock tower on top of the building", "A green roof", "A large brick facade"],
+"estimated\_time\_period": "12th century",
+"locations": ["A courtyard in front of the building"],
+"reasoning": "The building's architectural style and clock tower suggest it was constructed in the 12th century. The large brick facade and green roof also contribute to the building's medieval appearance. The bench on the sidewalk in front of the building provides a place for visitors to sit and enjoy the view of the courtyard and the building itself.",
+"description": "A large, medieval-style brick building with a clock tower and a green roof, situated in a courtyard with a bench on the sidewalk in front of it."
+}

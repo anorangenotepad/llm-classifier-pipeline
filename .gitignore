@@ -1,0 +1,33 @@
+
+# Ignore model files
+*.gguf
+*.pth
+models/
+checkpoints/
+
+# Ignore llama.cpp
+llama.cpp/
+
+# Ignore images
+*.png
+*.jpg
+
+# Ignore pdf_files
+*.pdf
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore venv
+venv-llm/
+
+#Ignore random stuff
+ALMOST_PERFECT_MATCHER_COPY_DONT_ERASE_CHANGE/
+_OLD/
+
+
+
+
+
+
