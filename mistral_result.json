@@ -1,6 +1,23 @@
 {
-  "image_title": "586bb387-f157-4468-ae91-b47dcb3bbdf4f9809fb6d163bb4204_210810-Caddie-9",
-  "best_match": "Log Cabin",
-  "confidence_score": "high",
-  "reasoning": "The cabin appears to be a log cabin, which matches the log cabin architectural style. The description and image confirm the presence of a wooden cabin with a sign on the door and a simple layout, which are common features of log cabins."
+  "image_title": "Menomonie’s Historic Wilson Place Mansion Again Welcomes Visitors",
+  "summary": "The historic Wilson Place Mansion in Menomonie, Wisconsin, is once again open to the public after being closed for years. The mansion, which belonged to three generations of lumber barons, is a significant historical landmark and offers an informative and transformative experience. It was originally built in 1859 and features elements such as marble fireplaces, stained glass, and gaming rooms.",
+  "scene": "A historical scene featuring the reopening of the Wilson Place Mansion in Menomonie, Wisconsin, to the public",
+  "objects": [
+    "Wilson Place Mansion",
+    "Marble fireplaces",
+    "Stained glass",
+    "Gaming rooms"
+  ],
+  "architectural_style": "Federal-style",
+  "notable_features": [
+    "Historical landmark",
+    "Belonged to lumber barons",
+    "Marble fireplaces",
+    "Stained glass",
+    "Gaming rooms"
+  ],
+  "estimated_time_period": "Late 1800s",
+  "locations": [
+    "Menomonie, Wisconsin"
+  ]
 }

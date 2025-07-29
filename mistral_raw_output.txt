@@ -103,15 +103,16 @@ Please return a JSON object containing:
   "reasoning": "Why you chose these values based on the text"
 }
 Only output valid, plain text JSON. Do not include anything outside the JSON block. Avoid escape sequences unless absolutely required for content.
+[/INST]
  [/INST] {
-  "image_title": "Menomonie’s Historic Wilson Place Mansion Again Welcomes Visitors",
-  "summary": "The historic Wilson Place Mansion in Menomonie, Wisconsin, is reopening to the public after being closed for years. The agreement between the current owner and the Mabel Tainter Center for the Arts aims to raise funds for restoring the mansion, which dates back to the Civil War era and was once home to three generations of lumber barons.",
-  "scene": "A downtown Menomonie landmark, the Wilson Place Mansion overlooks Broadway Street next to UW-Stout’s North Campus.",
-  "objects": ["Wilson Place Mansion", "Broadway Street", "UW-Stout"],
-  "architectural_style": "Federal-style",
-  "notable_features": ["Historic building", "Home to three generations of lumber barons", "Reopening for public tours"],
-  "estimated_time_period": "1859-present",
-  "locations": ["Menomonie, Wisconsin"]
+ "image_title": "Menomonie’s Historic Wilson Place Mansion Again Welcomes Visitors",
+ "summary": "The historic Wilson Place Mansion in Menomonie, Wisconsin, is once again open to the public after being closed for years. The mansion, which belonged to three generations of lumber barons, is a significant historical landmark and offers an informative and transformative experience. It was originally built in 1859 and features elements such as marble fireplaces, stained glass, and gaming rooms.",
+ "scene": "A historical scene featuring the reopening of the Wilson Place Mansion in Menomonie, Wisconsin, to the public",
+ "objects": ["Wilson Place Mansion", "Marble fireplaces", "Stained glass", "Gaming rooms"],
+ "architectural_style": "Federal-style",
+ "notable_features": ["Historical landmark", "Belonged to lumber barons", "Marble fireplaces", "Stained glass", "Gaming rooms"],
+ "estimated_time_period": "Late 1800s",
+ "locations": ["Menomonie, Wisconsin"]
 }
 
- 
+> 

@@ -19,6 +19,10 @@ image.json    text.json
 
 This is how you use it (a bit janky still as of 20250723):
 
+ACTIVATE VIRTUAL PYTHON ENV
+source venv-llm/bin/activate
+
+
 IMAGES WORKFLOW (LLaVA -> Mistral)
 1) put images in images directory
 2) run image_to_json.py
@@ -62,15 +66,6 @@ TEXT WORKFLOW (Mistral)
 3) run run_llama_run.py
    - mistral looks at first 5000 chars and generates .json with specified keys
    - raw output from misral saved to mistral_raw_output.txt
-4) run extract_last_json.sh
-   - specify output as cleaned_ouput/structured_original_filename.json
-4) run compose_prompt.py
-   - cleaned_output .json baked into prompt with habs_buckets_mvp.json,
-   - and a prompt that tells mistral to match text .json to bucket categories
-   - saves output to temp_prompt.txt
-5) run run_llama_run.py
-   - mistral compares image json with buckets (based on temp_prompt.txt)
-   - raw output from mistral saved to mistral_raw_ouput.txt
 6) run clean_mistral_output.py 
    - mistral output kinda crummy, so need to clean
    - this takes out all the extra garbage...
