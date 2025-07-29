@@ -1,4 +1,4 @@
-1. F. Curtis-Wedge and George Jones, History of Dunn Comnty, Wisconsin,
+1. F. Curtis-Wedge and George Jones, History of Dunn Comuty, Wisconsin,
 H.C. Cooper, Jr. and Co. Minneapolis-Minnesota, 1925. p. 254,
 
 2. A collection of Buffington's records and drawings is at the University
@@ -8,27 +8,27 @@ Buffington's firm.
 
 LATITUDE AND LONGITUDE COORDINATES
 
-DEFINING A RECTANGLE LOCATING THE prosERTY | O DEFINING The CENTER POIN) OF A PROPERTY
+DEFINING A RECTANGLE LOCATING THE prosERTY | O PEFINING The CENTER POING OF A PROPERTY
 R - OF LESS THAN TEN ACRES -
 CORNER LATITUDE LONGITUDE LATITUDE LONGITUDE
 
 Degrees Minutes Seconds | Degrees Minutes Seconds Degrees Minutes Seconds | Degrees Minutes Seconds
-NW o ’ " o » ”» (o) ’ - o ’ ”
-NE 5 . . . | |wed 527 45T | wol 55 43
-SE o ’ ” o » ]
+NW o ’ " o » ” (] [ - o ’ ”
+NE 5 . o . | |we& 527 45T | wol 55 43
+SE o ’ ” o » ”
 
-A o » . K3 ’ . .
+A o ’ . Kl ’ . |
 
-APPROXIMATE ACREAGE OF NOMINATED PROPERTY: lES.S han one _
+APPROXIMATE ACREAGE OF NOMINATED PROPERTY: lES.S han _one _
 
 ILIST ALL STATES AND COUNTIES FOR PROPERTIES OVERLAPFING STATE OR COUNTY'
 
-TR
+BT
 
 STATE: CODE CODE
 
-SO
-CODE W
+A oA o
+COoDE W
 
 STATE:
 
@@ -37,7 +37,7 @@ STATE: CODE COUNTY: s CODE
 
 NAME AND TITLE:
 
-El1]
+El]
 
 ORGANI ZATION
 
@@ -52,9 +52,8 @@ CITY OR TOWN:
 Madi
 
 As the designated State Liaison Officer for the Na-
-tional Historic Preservation Act of 1966 (Public Law
 
-I hereby certify that this property is included in the
+tional Historic Preservation Act of 1966 (Public Law I iy sEsily En G priveesty & dneliml i e
 
 National Register.
 
@@ -62,17 +61,17 @@ National Register.
 
 Director, Office of Archeology and Historic Preservation
 
-89-665), 1 hereby nominate this property for inclusion
+89-665), I hereby nominate this property for inclusion
 in the National Register and certify that it has been
 evaluated according to the c-iteria and procedures set
 fofth by the National Park Service. The recommended
 level of significance of this nomination is:
 
-National [ State [] Local [X)
+National [] State [] Local [X)
 
 Date 7 / g 7
 
-Name ATTEST:
+D ATTEST:
 
 ’ ames Morton Smith
 
@@ -84,6 +83,10 @@ l N 3
 
 GPO 931.894
 
+=
+
+=
+
 3356
 
-SNOILONY1LSNI
+SNOILODONY1LSNI

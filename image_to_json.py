@@ -2,12 +2,15 @@ import subprocess
 import os
 from pathlib import Path
 
+# BASE DIRECTORY
+BASE_DIR = Path(__file__).resolve().parent
+
 # CONFIG
-llava_bin = "/home/user/Tech/LLM/llama.cpp/build/bin/llama-mtmd-cli"
-model_path = "/home/user/Tech/LLM/models/llava/llava-v1.5-13b-Q4_0.gguf"
-mmproj_path = "/home/user/Tech/LLM/models/llava-mmproj/mmproj-model-f16.gguf"
-image_dir = Path("/home/user/Tech/LLM/images")
-output_dir = Path("/home/user/Tech/LLM/output")
+llava_bin = BASE_DIR / "llama.cpp/build/bin/llama-mtmd-cli"
+model_path = BASE_DIR / "models/llava/llava-v1.5-13b-Q4_0.gguf"
+mmproj_path = "models/llava-mmproj/mmproj-model-f16.gguf"
+image_dir = BASE_DIR / "images"
+output_dir = BASE_DIR / "output"
 chat_template = "vicuna"
 prompt = (
     "Analyze the following image and return only the following JSON structure:\n"

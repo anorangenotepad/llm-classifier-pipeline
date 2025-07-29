@@ -7,6 +7,9 @@ import sys
 import termios
 import tty
 import os
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
 
 #Not working, need shell script...
 def extract_last_json(text: str):
@@ -74,7 +77,7 @@ def run_llama_with_streaming(prompt_path: str, model_path: str, timeout: int = 9
         prompt_content = f.read()
 
     command = [
-        "/home/user/Tech/LLM/llama.cpp/build/bin/llama-cli",
+        str(BASE_DIR / "llama.cpp/build/bin/llama-cli"),
         "-m", model_path,
         "--n-predict", "400",
         "--prompt", prompt_content
@@ -145,9 +148,9 @@ if __name__ == "__main__":
 
     result = run_llama_with_streaming(
         prompt_path=user_prompt_path,
-        model_path="/home/user/Tech/LLM/models/minstral/mistral-7b-instruct-v0.2.Q4_0.gguf",
+        model_path=BASE_DIR / "models/minstral/mistral-7b-instruct-v0.2.Q4_0.gguf",
         timeout=200,  # your Goldilocks values: images 100, text 300?
-        verbose=True #set to true when debugging
+        verbose=False #set to true when debugging
     )
     #print("\n", result)
     reset_terminal()

@@ -1,5 +1,5 @@
 (Ch”eck One)
-[] Excellent [§ Good [ Fair ] Deteriorated [ Ruins [ Unexposed
+[ Excellent [} Good [ Fair O] Deteriorated [ Ruins ] Unexposed
 
 CONDITION
 
@@ -15,12 +15,12 @@ floor windows are similar, but are topped by lintels. The central mass of
 the building projects and is crowned by a high hipped roof with a band of
 
 . geometric ornament under the eaves. In the center of the hip is a tall
-chimney and at the left side of the projecting wall and hip is a large,
+chimmey and at the left side of the projecting wall and hip is a large,
 round tower with a conical roof. There is an ornamental gable over the
 third floor windows of the tower. From this central mass extends various
 hipped-roofed parts, two on each side; however, this facade is by no means
 symmetrical. It carries on the picturesque tradition of irregularly placed
-dormers, chimmneys, and windows. The main entry is at the northwest corner.
+dormers, chimmeys, and windows. The main entry is at the northwest corner.
 Along the north side of the building and around each corner is a one-story
 ‘arcade. The rounded arches have heavy voussoirs and along the top of the
 east side is a band of Sullivanesque ornament. The ornament is a fanciful
@@ -31,7 +31,7 @@ windows similar to the west. The roof line is less picturesque with a low,
 rounded dormer of clapboard, lower chimmeys, and symmetrically-placed
 dormers. This house is an example of the Richardsonian Romanesque.
 
-The exterior remains © the same as built and will continue in its present
+The exterior remains ° the same as built and will continue in its present
 condition because the University of Wisconsin--Stout has taken great care
 to make minimal changes and will continue the policy. During its various
 uses as a dormitory and as a vocational rehabilitation center, only

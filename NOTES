@@ -33,7 +33,15 @@ IMAGES WORKFLOW (LLaVA -> Mistral)
 5) run run_llama_run.py
    - mistral compares image json with buckets (based on temp_prompt.txt)
    - raw output from mistral saved to mistral_raw_ouput.txt
-6) run extract_last_json.sh
+6) run clean_mistral_output.py 
+   - mistral output kinda crummy, so need to clean
+   - this takes out all the extra garbage...
+   - saves to mistral_result.json
+7) run python append_to_json.py
+   - moves clean .json block from mistral_result.json to final .json file
+   - specify output as: results.json 
+!) run extract_last_json.sh
+   - previous method... may still be useful sometimes
    - mistral output kinda crummy, so need to use this method
    - specify output as last_block.json (final list of all items)
 
@@ -63,7 +71,15 @@ TEXT WORKFLOW (Mistral)
 5) run run_llama_run.py
    - mistral compares image json with buckets (based on temp_prompt.txt)
    - raw output from mistral saved to mistral_raw_ouput.txt
-6) run extract_last_json.sh
+6) run clean_mistral_output.py 
+   - mistral output kinda crummy, so need to clean
+   - this takes out all the extra garbage...
+   - saves to mistral_result.json
+7) run python append_to_json.py
+   - moves clean .json block from mistral_result.json to final .json file
+   - specify output as: results.json   
+!) run extract_last_json.sh
+   - previous method... may still be useful sometimes
    - mistral output kinda crummy, so need to use this method
    - specify output as last_block.json (final list of all items)
 

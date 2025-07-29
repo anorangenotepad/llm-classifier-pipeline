@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FILE="mistral_raw_output.txt"
+FILE="mistral_result.json"
 
 # Prompt for output file path
 read -p "Enter output filename for extracted JSON: " OUTPUT_FILE

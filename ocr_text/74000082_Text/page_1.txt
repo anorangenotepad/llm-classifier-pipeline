@@ -29,22 +29,22 @@ Wisconsin D
 CATEGORY ACCESSIBLE
 STATUS
 
-[ District X1 Building K] Public Public Acquisition: (] Occupied Yes:
+[ District X1 Building K] Public Public Acquisition: [ Occupied Yes:
 [ Site [ Structure | Private [ In Process X Unoccupied @ Restricted
 
-O Object ] Both [[] Being Considered [ Preservation work [ Unrestricted
+0 Object ] Both [[] Being Considered [ Preservation work [ Unrestricted
 in progress O Ne
 
 PRESENT USE (Check One or More as Appropriate)
 
-[J Agricultural [] Government ] Park [] Transportation [C] Comments
-[ .Commercial [ Industrial ] Private Residence [] Other (Specifty)
+[0 Agricultural [] Government ] Park [] Transportation [[] Comments
+] .Commercial [ Industrial ] Private Residence [] Other (Specify)
 
 [X Educational [ Military [J Religious
 
-[T} Entertainment ] Museum ] Scientific
+[} Entertainment ] Museum ] Scientific
 
-OWNER'S N AME:
+OWNER'’S N AME:
 - University of Wisconsin-Stout, Robert S. Swanson, Chancellor
 
 STREET AND NUMBER:
@@ -53,18 +53,22 @@ CITY OR TOWN:
 
 Wisconsin
 
-m
-z
-1973 Summer Architectural Survey A . A\ 2
-DATE OF SURVEY: 1973 {7} Federal X1 State ¥ ‘ma‘ =
-DEPOSITORY FOR SURVEY RECORDS: aw =
-State Historical Society of Wisconsin G ATIONAL Iy, 5
+1973 Summer Architectural Survey
+
+g \\ =\
+pAaTE OF sURVEY: 1973 {J Federal K] State ~Govnty — [odgeel Y=\
+DEPOSITORY FOR SURVEY RECORDS: aw
+
+State Historical Society of Wisconsin GATIONAY L7
 STREET AND NUMBER: W
 816 State Street >, ‘ .
 
-CITY OR TOWN: N ﬁ“y‘ -
+CITY OR TOWN: N m;"z ol
 Madison nsin
+
+H3EWNN AYLN3
+
+ATINO 35N SAN 304
 
 3lva
 
-ATINO 3SN SdN 304

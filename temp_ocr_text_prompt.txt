@@ -1,117 +1,94 @@
 [INST] You are a historical document summarization assistant.
 
-image_title: "700 4th St W _ National or State Registers Record _ Wisconsin Historical Society"
+image_title: "Menomonie’s Historic Wilson Place Mansion Again Welcomes.._"
 Below is the OCR-extracted text from a scanned historical document:
 
 
 
-5/25/25, 1:53 PM 700 4th St W | National or State Registers Record | Wisconsin Historical Society
+7/29/25, 3:00 PM
 
-NATIONAL OR STATE REGISTERS RECORD
-700 4th St W
+Menomonie’s Historic Wilson Place Mansion Again Welcomes...
 
-National or State Register of Historic Places
+,’,
 
-NAMES
+LAY
+n}enomonle
 
-Historic Name: Menomonie Omaha Depot
-Reference Number: 100002856
+THEME ISSUE
 
-PROPERTY LOCATION
+What's good and where to go
+in the gem on the Red Cedar
 
-Location (Address): 700 4th St W
-County: Dunn
+BROUGHT TO YOU BY
 
-City/Village: Menomonie
-Township:
+xplore
+WESTconsin  menomonie
 
-SUMMARY
+é University of
+== Wisconsin-Stout
+? Wisconains Polysechnic University
 
-Menomonie Omaha Depot
+\
+)
 
-700 4th Street West, Menomonie, Dunn County
+Articles  Events Calendar ~ Restaurants & Taverns  Big List of Local Attractions
 
-Date of Construction: 1906
+Cwstory Toumsn
 
-The railroad depot was an important civic building and in essence was to
-the modern city what the city gate was to the ancient cities. The depot
-housed the arrival and departure of travelers. Externally the most
-conspicuous part of the railroad depot became its silhouette. Late-
-nineteenth and early- to mid-twentieth century train passengers became
-familiar with the long rectangular buildings, wide sheltering overhangs and
-asymmetrical designs of the small town depot. The one-sided depots
-enabled passengers to board or disembark a train safely, without having to
-cross the train tracks. Such buildings continued in use throughout the
-United States for decades without many modifications. Passenger travel
-stimulated economic growth by allowing people to be mobile for business
-opportunities.
+o 9 ° ° ° °
+Menomonie s Historic Wilson Place Mansion
+Again Welcomes Visitors
 
-At the turn of the century, the Chicago, St. Paul, Minneapolis & Omaha
-Railroad recognized the growing passenger market in Menomonie and
-provided the city a more substantial passenger station replacing the small
+19th-century landmark had been closed to public for years
 
-drafty 1880 station. The 1905 blueprints were designed by nationally
-https://www.wisconsinhistory.org/Records/NationalRegister/NR2596 2/8
+Kyra Price
 
-5/25/25, 1:53 PM 700 4th St W | National or State Registers Record | Wisconsin Historical Society
+Wilson Place Mansion today. (Submitted photo)
 
-recognized architect Horace P. Padley. During this period in his career he
-was an architect in the office of Engineering for the Chicago, St. Paul,
-Minneapolis & Omaha Railroad. Whether small or large, each depot
-received suggestions from the community. By 1916, more than 85,000
-depots and stations had been constructed throughout the United States.
+A historic downtown Menomonie mansion that was home to three generations of lumber
 
-From 1906 to 1961, the Menomonie Omaha Depot served as a hub for
-arrivals and departures of daily trains linking Menomonie residents with the
-rest of the country. It was the center of modern transportation allowing
-Menomonie residents to travel for business, vacation, or to visit friends and
-relatives living in other places. Americans enjoyed mobility and would use
-rail travel until the 1950s and 1960s when Americans would fall in love with
-the automobile. The automobile offered unique, private and independent
-travel.
+barons is once again open to the public.
 
-The depot continues to be an area landmark and a symbol of the nineteenth
-and twentieth-century railroad industry. Most importantly, it remains as an
-excellent example of how the railroad industry and the passenger depot
-enhanced the growth of the country and small logging towns such as
-Menomonie, Wisconsin.
+An agreement between the current owner of the Wilson Place Mansion, Tim Dotseth, and the Mabel Tainter
 
-PROPERTY FEATURES
+Center for the Arts means the Wilson Place will be open for tours on select days and times.
 
-Period of Significance: 1906-1961
+The reopening is viewed as a fundraising opportunity for both the Mabel Tainter and Wilson Place. “We want to
 
-Area of Significance: Transportation
+raise money to help restore Wilson Place,” Mabel Tainter Executive Director Lucas Chase said.
 
-Applicable Criteria: Event
+https://volumeone.org/sites/menomonie/articles/2024/07/20/345625-menomonies-historic-wilson-place-mansion-again 1/5
 
-Historic Use: Transportation: Rail-Related
+7/29/25, 3:00 PM Menomonie’s Historic Wilson Place Mansion Again Welcomes...
 
-Architectural Style: Late 19th And Early 20th Century American
-Movements
+share that history,” Chase said. He believes the reopening of Wilson Place offers an informative and
 
-Resource Type: Building
+transformative experience for locals and visitors.
 
-Architect: Horace P. Padley
+Wilson Place Mansion overlooks Broadway Street next to UW-Stout’s North Campus. On the outside, it may
+just look like a yellow building with vintage-style dark paneling that sits behind a metal gate. But Wilson Place
 
-DESIGNATIONS
+serves as a true relic of historical Menomonie.
 
-Historic Status: Listed in the State Register
-Historic Status: Listed in the National Register
-National Register Listing Date: 09/04/2018
-State Register Listing Date: 05/18/2018
+Wilson Place, circa 1910. (UW-Stout Archives)
 
-NUMBER OF RESOURCES WITHIN PROPERTY
+A 1999 Dunn County News article noted “Wilson Place is a journey through generations. ... Dating back to the
+Civil War era, this structure is filled with history. ... Wilson Place and its contents preserve a unique local and
 
-Number of Contributing Buildings: 1
-Number of Contributing Sites: 0
+state heritage.”
 
-Number of Contributing Structures: 0
-Number of Contributing Objects: 0
-Number of Non-Contributing Sites: 0
-Number of Non-Contributing Structures: 0
-Number of Non-Contributing Objects: 0
+The Wilson Place belonged to three generations of lumber barons: The Wilsons, the Stouts, and the LaPointes. It
+was eventually purchased by the current owners, the Dotseth family. Melissa Kneeland, executive director of
+the Dunn County Historical Society, said William Wilson was the first mayor of Menomonie and his family
+designed the home to look like a federal-style building. Wilson died in 1892, and the building was named after
 
-https://www.wisconsinhistory.org/Records/NationalRegister/NR2596
+him.
+
+Wilson Place was originally built on 22 acres in 1859. It has been remodeled and expanded since then. “There
+
+were 11 marble fireplaces, stained glass, and gaming rooms,” Kneeland said.
+
+https://volumeone.org/sites/menomonie/articles/2024/07/20/345625-menomonies-historic-wilson-place-mansion-again 2/5
 
 Please return a JSON object containing:
 {

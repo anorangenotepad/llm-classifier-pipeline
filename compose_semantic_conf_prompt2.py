@@ -35,25 +35,28 @@ bucket_label = bucket_entry["label"]
 # --- Extract image title ---
 image_title = os.path.basename(input_path).replace("structured_", "").replace(".json", "")
 
-# --- Build prompt ---
-prompt = "[INST] You are a semantic classifier of historical architectural data.\n\n"
-prompt += f"Given:\n- Image Title: \"{image_title}\"\n"
-prompt += f"- Image JSON:\n{json.dumps(image_data, indent=2, ensure_ascii=False)}\n\n"
-prompt += f"- Bucket Name: \"{bucket_label}\"\n"
-prompt += f"- Bucket Features: {json.dumps(bucket_features, ensure_ascii=False)}\n\n"
-
-prompt += (
+# --- Build prompt (NO [INST] tags!) ---
+prompt = (
+    "You are a JSON-generating API. \n"
+    "YOur task is to classify architectural image data. \n\n"
+    "Respond only with valid, unescaped JSON.\n"
+    "Do not use Markdown formatting or escape characters.\n\n"
+    f"Given:\n"
+    f"- Image Title: \"{image_title}\"\n"
+    f"- Image JSON:\n{json.dumps(image_data, indent=2, ensure_ascii=False)}\n\n"
+    f"- Bucket Name: \"{bucket_label}\"\n"
+    f"- Bucket Features: {json.dumps(bucket_features, ensure_ascii=False)}\n\n"
     "TASK:\n"
-    "Rate how well this image fits this bucket. Return only the following JSON structure\n"
+    "Rate how well this image fits this bucket.\n"
+    "Return only the following JSON structure:\n"
     "{\n"
-    "  \"image_title\": \"filename\",\n"
-    "  \"semantic_confidence_score\": 0.72,\n"
-    "  \"tier\": \"low / medium / high\",\n"
-    "  \"reason\": \"Brief explanation\"\n"
+    '  "image_title": "filename",\n'
+    '  "semantic_confidence_score": 0.72,\n'
+    '  "tier": "low / medium / high",\n'
+    '  "reason": "Brief explanation"\n'
     "}\n"
-    "Confidence score must be between 0.0 and 1.0.\n"
-    "Only output valid JSON. Do not include explanations outside the structure.\n"
-    "[/INST]"
+    "The confidence score must be a number between 0.0 and 1.0.\n"
+    "\Return only the following JSON object, nothing else — no Markdown, no backslashes, no formatting:\n"
 )
 
 # --- Write prompt ---
@@ -61,3 +64,4 @@ with open("semantic_prompt.txt", "w", encoding="utf-8") as f:
     f.write(prompt)
 
 print("✅ Prompt written to semantic_prompt.txt")
+

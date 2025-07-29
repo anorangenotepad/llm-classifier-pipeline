@@ -18,5 +18,5 @@ HABS No. NY-6175
 
 N,
 AN
-3V - TR
+BW\ - TN
 \o

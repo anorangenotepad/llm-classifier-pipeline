@@ -1,0 +1,16 @@
+main: loading model: /home/user/Tech/LLM/models/llava/llava-v1.5-13b-Q4_0.gguf
+encoding image or slice...
+image/slice encoded in 3513 ms
+decoding image batch 1/1, n_tokens_batch = 576
+image decoded (batch 1/1) in 97041 ms
+
+ {
+"scene": "A large red building with a clock tower and a flag on top",
+"objects": ["A large red building with a clock tower and a flag on top"],
+"architectural\_style": "A large red building with a clock tower and a flag on top",
+"notable\_features": ["A large red building with a clock tower and a flag on top"],
+"estimated\_time\_period": "A large red building with a clock tower and a flag on top",
+"locations": ["A large red building with a clock tower and a flag on top"],
+"reasoning": "A large red building with a clock tower and a flag on top",
+"description": "A large red building with a clock tower and a flag on top"
+}

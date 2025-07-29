@@ -1,2 +1,8 @@
-{  "image_title": "156973_web_old_wilson_place",  "semantic_confidence_score": 0.85,  "tier": "high",  "reason": "The image matches the Victorian House bucket as it showcases a Victorian mansion with architectural features such as ornate trim, steep roof, and asymmetrical facade, which are all present in the bucket features. The presence of a tower, porch, stairs, columns, and balcony further reinforces the match."}
-{  "image_title": "Menomonie Omaha Depot, 700 4th St W, Menomonie, Dunn County",  "semantic_confidence_score": 0.95,  "tier": "high",  "reason": "The image fits well into the 'Train Depot' bucket as it is a historical train depot, and the provided JSON mentions the presence of 'freight loading doors' and 'ticket windows'. Additionally, the architectural style matches the defined features 'broad eaves' and 'wood or brick construction'."}
+[
+  {
+    "image_title": "clock_tower",
+    "semantic_confidence_score": 0.6,
+    "tier": "medium",
+    "reason": "The image shows a large red building with a clock tower and a flag, which is consistent with some elements of the Courthouse or Civic Building bucket (symmetrical facade, for example). However, it does not exhibit a domed roof or grand staircase, and the stone construction is not explicitly stated in the image title or description. Therefore, the semantic confidence score is medium."
+  }
+]

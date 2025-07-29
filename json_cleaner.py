@@ -2,9 +2,12 @@ import json
 from pathlib import Path
 import re
 
+# BASE DIRECTORY
+BASE_DIR = Path(__file__).resolve().parent
+
 # Set these paths to match your system
-input_dir = Path("/home/user/Tech/LLM/output")
-output_dir = Path("/home/user/Tech/LLM/cleaned_output")
+input_dir = BASE_DIR / "output"
+output_dir = BASE_DIR /  "cleaned_output"
 output_dir.mkdir(parents=True, exist_ok=True)
 
 def extract_json_from_text(raw_text):

@@ -1,37 +1,40 @@
-[INST] You are a semantic classifier of historical architectural data.
+You are a JSON-generating API. 
+YOur task is to classify architectural image data. 
+
+Respond only with valid, unescaped JSON.
+Do not use Markdown formatting or escape characters.
 
 Given:
-- Image Title: "depot_dunn_county"
+- Image Title: "clock_tower"
 - Image JSON:
 {
-  "image_title": "Menomonie Omaha Depot, 700 4th St W, Menomonie, Dunn County",
-  "summary": "The document summarizes the historical significance of the Menomonie Omaha Depot, built in 1906, which served as a hub for arrivals and departures of daily trains until 1961. Designed by Horace P. Padley, it is listed in both the State and National Registers of Historic Places.",
+  "scene": "A large red building with a clock tower and a flag on top",
   "objects": [
-    "Menomonie Omaha Depot"
+    "A large red building with a clock tower and a flag on top"
   ],
-  "architectural_style": "Late 19th and Early 20th Century American Movements",
+  "architectural_style": "A large red building with a clock tower and a flag on top",
   "notable_features": [
-    "Transportation: Rail-Related",
-    "Historic Name: Menomonie Omaha Depot",
-    "Designed by Horace P. Padley"
+    "A large red building with a clock tower and a flag on top"
   ],
-  "estimated_time_period": "Early 20th Century",
+  "estimated_time_period": "A large red building with a clock tower and a flag on top",
   "locations": [
-    "Menomonie, Dunn County, Wisconsin"
-  ]
+    "A large red building with a clock tower and a flag on top"
+  ],
+  "reasoning": "A large red building with a clock tower and a flag on top",
+  "description": "A large red building with a clock tower and a flag on top"
 }
 
-- Bucket Name: "Train Depot"
-- Bucket Features: ["broad eaves", "freight loading doors", "ticket windows", "central cupola or tower", "wood or brick construction"]
+- Bucket Name: "Courthouse or Civic Building"
+- Bucket Features: ["domed roof", "symmetrical facade", "stone construction", "grand staircase", "columns or pilasters"]
 
 TASK:
-Rate how well this image fits this bucket. Return a JSON object like this:
+Rate how well this image fits this bucket.
+Return only the following JSON structure:
 {
   "image_title": "filename",
   "semantic_confidence_score": 0.72,
   "tier": "low / medium / high",
   "reason": "Brief explanation"
 }
-Confidence score must be between 0.0 and 1.0.
-Do not include any other text.
-[/INST]
+The confidence score must be a number between 0.0 and 1.0.
+\Return only the following JSON object, nothing else — no Markdown, no backslashes, no formatting:
