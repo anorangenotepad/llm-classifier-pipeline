@@ -1,0 +1,16 @@
+main: loading model: /home/user/Tech/LLM/models/llava/llava-v1.5-13b-Q4_0.gguf
+encoding image or slice...
+image/slice encoded in 3314 ms
+decoding image batch 1/1, n_tokens_batch = 576
+image decoded (batch 1/1) in 93021 ms
+
+ {
+"scene": "bridge over water",
+"objects": ["bridge"],
+"architectural\_style": "old-fashioned",
+"notable\_features": ["bridge over water"],
+"estimated\_time\_period": "19th century",
+"locations": ["river"],
+"reasoning": "The image is a black and white photo of an old-fashioned bridge over a river, suggesting that it was taken in the 19th century. The bridge's design and the presence of smoke in the background indicate that it was a time when steam engines were prevalent, and the bridge was likely used for transportation and trade. The image captures a moment in history when the bridge played a crucial role in connecting communities and facilitating economic growth.",
+"description": "An old-fashioned bridge over a river, with smoke in the background, suggesting a time when steam engines were common."
+}

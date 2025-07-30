@@ -70,12 +70,24 @@ TEXT WORKFLOW (Mistral)
    - mistral looks at first 5000 chars and generates .json with specified keys
    - raw output from misral saved to mistral_raw_output.txt
 6) run clean_mistral_output.py 
+   - !!NOTE: python clean_mistral_output.py "cleaned_output/original file name.json"
+   - mistral output kinda crummy, so need to clean
+   - this takes out all the extra garbage...
+7) run compose_prompt.py
+   - image .json baked into prompt with habs_buckets_mvp.json,
+   - and a prompt that tells mistral to match image .json to bucket categories
+   - saves output to temp_prompt.txt
+8) run run_llama_run.py
+   - mistral compares image json with buckets (based on temp_prompt.txt)
+   - raw output from mistral saved to mistral_raw_ouput.txt
+9) run clean_mistral_output.py 
    - mistral output kinda crummy, so need to clean
    - this takes out all the extra garbage...
    - saves to mistral_result.json
-7) run python append_to_json.py
+10) run python append_to_json.py
    - moves clean .json block from mistral_result.json to final .json file
-   - specify output as: results.json   
+   - specify output as: results.json  
+
 !) run extract_last_json.sh
    - previous method... may still be useful sometimes
    - mistral output kinda crummy, so need to use this method

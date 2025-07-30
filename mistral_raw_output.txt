@@ -1,50 +1,46 @@
- [INST] You are a JSON-generating API. 
-YOur task is to classify architectural image data. 
+ [INST] [INST] You are a historical records analyst.
 
-Respond only with valid, unescaped JSON.
-Do not use Markdown formatting or escape characters.
+image_title: "Menomonie’s Historic Wilson Place Mansion Again Welcomes.._"
+Below is the description of an item:
+scene: "Interior and exterior of the Wilson Place Mansion"
+objects: ["Wilson Place Mansion", "metal gate"]
+architectural_style: "Federal-style"
+notable_features: ["historical significance", "remodeled and expanded", "eleven marble fireplaces", "stained glass", "gaming rooms"]
+estimated_time_period: "1859-present"
+locations: ["Menomonie, Wisconsin"]
 
-Given:
-- Image Title: "63726"
-- Image JSON:
-{
-  "scene": "cemetery",
-  "objects": [
-    "monument",
-    "statue"
-  ],
-  "architectural_style": "modern",
-  "notable_features": [
-    "snow-covered ground",
-    "grave markers"
-  ],
-  "estimated_time_period": "20th century",
-  "locations": [
-    "cemetery"
-  ],
-  "reasoning": "The image depicts a cemetery with a statue and monument in the middle of the snow-covered ground. The presence of grave markers and the snowy landscape suggest that the photo was taken during the winter season. The modern architectural style of the monument and statue indicates that this cemetery was likely established in the 20th century. The black and white nature of the photo also supports this time period, as it was common for photographs to be in black and white during the early to mid-20th century.",
-  "description": "A cemetery with a statue and monument in the middle of a snow-covered ground, surrounded by grave markers."
-}
+Here is a list of classification buckets:
 
-- Bucket Name: "Historic Cemetery"
-- Bucket Features: ["stone grave markers or headstones", "wrought iron or stone fencing", "family plots or mausoleums", "carved inscriptions", "tree-lined paths or gravel lanes", "gateposts or arched entry"]
-
-TASK:
-Rate how well this image fits this bucket.
+- Greek Revival Church: ['white clapboard siding', 'triangular pediment', 'symmetrical facade', 'Doric or Ionic columns', 'belfry or steeple', 'temple-front portico']
+- Colonial Farmhouse: ['steeply pitched roof', 'central chimney', 'symmetrical windows', 'clapboard siding', 'small porches']
+- Craftsman Bungalow: ['low-pitched roof', 'exposed rafters', 'tapered columns', 'broad front porch', 'wood detailing']
+- Industrial Facility: ['brick exterior', 'smokestack', 'large industrial windows', 'flat or gabled roof', 'loading docks']
+- Victorian House: ['ornate trim', 'steep roof', 'asymmetrical facade', 'bay windows', 'turrets', 'decorative gables']
+- Shotgun House: ['narrow footprint', 'aligned rooms', 'front porch', 'gable roof', 'single-story']
+- Schoolhouse (1-Room): ['bell tower', 'rectangular plan', 'evenly spaced windows', 'gabled roof', 'central entry']
+- Train Depot: ['broad eaves', 'freight loading doors', 'ticket windows', 'central cupola or tower', 'wood or brick construction']
+- Log Cabin: ['horizontal log walls', 'visible chinking', 'stone chimney', 'gable roof', 'simple layout']
+- Courthouse or Civic Building: ['domed roof', 'symmetrical facade', 'stone construction', 'grand staircase', 'columns or pilasters']
+- Transportation Bridge: ['arched or truss design', 'steel or iron framework', 'stone or concrete piers', 'roadbed or railway deck', 'riveted or bolted joints']
+- Historic Storefront: ['large display windows', 'recessed entryway', 'transom windows', 'decorative cornice', 'brick or stone facade', 'cast-iron or wood columns']
+- Historic College Building: ['multi-story masonry construction', 'arched or pedimented entrances', 'symmetrical or axial layout', 'classroom and lecture hall windows', 'cupola or clock tower (optional)', 'stone or brick detailing']
+- Historic Service Station: ['canopy or overhang for vehicles', 'gas pumps in front', 'brick or stucco construction', 'large front windows', 'garage bay doors', 'porcelain enamel signage']
+- Historic Cemetery: ['stone grave markers or headstones', 'wrought iron or stone fencing', 'family plots or mausoleums', 'carved inscriptions', 'tree-lined paths or gravel lanes', 'gateposts or arched entry']
+- Historic Park or Public Square: ['landscaped grounds', 'walking paths or promenades', 'gazebos or bandstands', 'decorative fountains or statues', 'stone benches or retaining walls', 'formal entrances or gates']
+Based on the item's description, choose the most appropriate classification bucket.
 Return only the following JSON structure:
 {
   "image_title": "filename",
-  "semantic_confidence_score": 0.72,
-  "tier": "low / medium / high",
-  "reason": "Brief explanation"
+  "best_match": "label",
+  "confidence_score": "high / medium / low",
+  "reasoning": "string"
 }
-The confidence score must be a number between 0.0 and 1.0.
-\Return only the following JSON object, nothing else — no Markdown, no backslashes, no formatting:
- [/INST] {
-  "image\_title": "63726",
-  "semantic\_confidence\_score": 0.85,
-  "tier": "medium",
-  "reason": "The image contains a cemetery scene, and it matches several features in the bucket: snow-covered ground, grave markers, and modern architectural style. The presence of a monument and statue further strengthens the match."
+Only output valid JSON. Do not include explanations outside the structure.
+[/INST] [/INST] {
+"image_title": "Menomonie’s Historic Wilson Place Mansion Again Welcomes_",
+"best_match": "Historic College Building",
+"confidence_score": "high",
+"reasoning": "The Wilson Place Mansion is described as historical, remodeled and expanded, and located in Menomonie, Wisconsin. The notable features include eleven marble fireplaces, stained glass, and gaming rooms. Federal-style architectural features are also mentioned. These characteristics align with a Historic College Building."
 }
 
 > 

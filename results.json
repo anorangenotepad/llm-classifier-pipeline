@@ -6,32 +6,27 @@
     "reasoning": "The cabin appears to be a log cabin, which matches the log cabin architectural style. The description and image confirm the presence of a wooden cabin with a sign on the door and a simple layout, which are common features of log cabins."
   },
   {
-    "image_title": "Menomonie’s Historic Wilson Place Mansion Again Welcomes Visitors",
-    "summary": "The historic Wilson Place Mansion in Menomonie, Wisconsin, is once again open to the public after being closed for years. The mansion, which belonged to three generations of lumber barons, is a significant historical landmark and offers an informative and transformative experience. It was originally built in 1859 and features elements such as marble fireplaces, stained glass, and gaming rooms.",
-    "scene": "A historical scene featuring the reopening of the Wilson Place Mansion in Menomonie, Wisconsin, to the public",
-    "objects": [
-      "Wilson Place Mansion",
-      "Marble fireplaces",
-      "Stained glass",
-      "Gaming rooms"
-    ],
-    "architectural_style": "Federal-style",
-    "notable_features": [
-      "Historical landmark",
-      "Belonged to lumber barons",
-      "Marble fireplaces",
-      "Stained glass",
-      "Gaming rooms"
-    ],
-    "estimated_time_period": "Late 1800s",
-    "locations": [
-      "Menomonie, Wisconsin"
-    ]
-  },
-  {
     "image_title": "63726",
     "best_match": "Historic Cemetery",
     "confidence_score": "high",
     "reasoning": "The image depicts a cemetery with modern architectural style monument and statue, suggesting this is a historic cemetery."
+  },
+  {
+    "image_title": "1009000270-l",
+    "best_match": "Transportation Bridge",
+    "confidence_score": "high",
+    "reasoning": "The image is a black and white photo of an old-fashioned bridge over a river, suggesting that it was taken in the 19th century. The bridge's design and the presence of smoke in the background indicate that it was a time when steam engines were prevalent. The bridge is likely an important transportation infrastructure that played a crucial role in connecting communities and facilitating economic growth. Based on the description, the best match for the image is 'Transportation Bridge'."
+  },
+  {
+    "image_title": "Bell Monument Historical Marker",
+    "best_match": "Historic College Building",
+    "confidence_score": "high",
+    "reasoning": "The description mentions a historical marker, bell, and monument, which is consistent with a college or university setting. The time period also supports the late 1800s to late 1990s, when many college buildings were constructed."
+  },
+  {
+    "image_title": "Menomonie’s Historic Wilson Place Mansion Again Welcomes_",
+    "best_match": "Historic College Building",
+    "confidence_score": "high",
+    "reasoning": "The Wilson Place Mansion is described as historical, remodeled and expanded, and located in Menomonie, Wisconsin. The notable features include eleven marble fireplaces, stained glass, and gaming rooms. Federal-style architectural features are also mentioned. These characteristics align with a Historic College Building."
   }
 ]
