@@ -27,5 +27,11 @@
     "locations": [
       "Menomonie, Wisconsin"
     ]
+  },
+  {
+    "image_title": "63726",
+    "best_match": "Historic Cemetery",
+    "confidence_score": "high",
+    "reasoning": "The image depicts a cemetery with modern architectural style monument and statue, suggesting this is a historic cemetery."
   }
 ]

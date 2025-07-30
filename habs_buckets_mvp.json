@@ -163,5 +163,112 @@
       "state capitals",
       "town centers"
     ]
+  },
+  {
+    "label": "Transportation Bridge",
+    "notable_features": [
+      "arched or truss design",
+      "steel or iron framework",
+      "stone or concrete piers",
+      "roadbed or railway deck",
+      "riveted or bolted joints"
+    ],
+    "estimated_time_period": "1850\u20131940",
+    "locations": [
+      "river crossings",
+      "rail corridors",
+      "rural byways",
+      "urban infrastructure zones"
+    ]
+  },
+  {
+    "label": "Historic Storefront",
+    "notable_features": [
+      "large display windows",
+      "recessed entryway",
+      "transom windows",
+      "decorative cornice",
+      "brick or stone facade",
+      "cast-iron or wood columns"
+    ],
+    "estimated_time_period": "1850\u20131930",
+    "locations": [
+      "main streets",
+      "small towns",
+      "urban commercial districts",
+      "early downtowns"
+    ]
+  },
+  {
+    "label": "Historic College Building",
+    "notable_features": [
+      "multi-story masonry construction",
+      "arched or pedimented entrances",
+      "symmetrical or axial layout",
+      "classroom and lecture hall windows",
+      "cupola or clock tower (optional)",
+      "stone or brick detailing"
+    ],
+    "estimated_time_period": "1830\u20131940",
+    "locations": [
+      "university campuses",
+      "college quadrangles",
+      "academic institutions",
+      "historic districts"
+    ]
+  },
+  {
+    "label": "Historic Service Station",
+    "notable_features": [
+      "canopy or overhang for vehicles",
+      "gas pumps in front",
+      "brick or stucco construction",
+      "large front windows",
+      "garage bay doors",
+      "porcelain enamel signage"
+    ],
+    "estimated_time_period": "1920\u20131950",
+    "locations": [
+      "roadside intersections",
+      "highways",
+      "small towns",
+      "urban corners"
+    ]
+  },
+  {
+    "label": "Historic Cemetery",
+    "notable_features": [
+      "stone grave markers or headstones",
+      "wrought iron or stone fencing",
+      "family plots or mausoleums",
+      "carved inscriptions",
+      "tree-lined paths or gravel lanes",
+      "gateposts or arched entry"
+    ],
+    "estimated_time_period": "1700s\u2013early 1900s",
+    "locations": [
+      "churchyards",
+      "hillsides",
+      "rural towns",
+      "city outskirts"
+    ]
+  },
+  {
+    "label": "Historic Park or Public Square",
+    "notable_features": [
+      "landscaped grounds",
+      "walking paths or promenades",
+      "gazebos or bandstands",
+      "decorative fountains or statues",
+      "stone benches or retaining walls",
+      "formal entrances or gates"
+    ],
+    "estimated_time_period": "1800s\u20131930s",
+    "locations": [
+      "city centers",
+      "town greens",
+      "residential neighborhoods",
+      "riverfronts"
+    ]
   }
 ]

@@ -1,23 +1,6 @@
 {
-  "image_title": "Menomonie’s Historic Wilson Place Mansion Again Welcomes Visitors",
-  "summary": "The historic Wilson Place Mansion in Menomonie, Wisconsin, is once again open to the public after being closed for years. The mansion, which belonged to three generations of lumber barons, is a significant historical landmark and offers an informative and transformative experience. It was originally built in 1859 and features elements such as marble fireplaces, stained glass, and gaming rooms.",
-  "scene": "A historical scene featuring the reopening of the Wilson Place Mansion in Menomonie, Wisconsin, to the public",
-  "objects": [
-    "Wilson Place Mansion",
-    "Marble fireplaces",
-    "Stained glass",
-    "Gaming rooms"
-  ],
-  "architectural_style": "Federal-style",
-  "notable_features": [
-    "Historical landmark",
-    "Belonged to lumber barons",
-    "Marble fireplaces",
-    "Stained glass",
-    "Gaming rooms"
-  ],
-  "estimated_time_period": "Late 1800s",
-  "locations": [
-    "Menomonie, Wisconsin"
-  ]
+  "image_title": "63726",
+  "semantic_confidence_score": 0.85,
+  "tier": "medium",
+  "reason": "The image contains a cemetery scene, and it matches several features in the bucket: snow-covered ground, grave markers, and modern architectural style. The presence of a monument and statue further strengthens the match."
 }

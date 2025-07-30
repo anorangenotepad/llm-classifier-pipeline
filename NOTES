@@ -17,6 +17,9 @@ image.json    text.json
    ("Given this text, which bucket is best?")
 
 
+MODELS USED:
+(see image_to_json.py, run_llama_run.py)
+
 This is how you use it (a bit janky still as of 20250723):
 
 ACTIVATE VIRTUAL PYTHON ENV

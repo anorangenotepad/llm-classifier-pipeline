@@ -1,118 +1,50 @@
- [INST] [INST] You are a historical document summarization assistant.
+ [INST] You are a JSON-generating API. 
+YOur task is to classify architectural image data. 
 
-image_title: "Menomonie’s Historic Wilson Place Mansion Again Welcomes.._"
-Below is the OCR-extracted text from a scanned historical document:
+Respond only with valid, unescaped JSON.
+Do not use Markdown formatting or escape characters.
 
+Given:
+- Image Title: "63726"
+- Image JSON:
+{
+  "scene": "cemetery",
+  "objects": [
+    "monument",
+    "statue"
+  ],
+  "architectural_style": "modern",
+  "notable_features": [
+    "snow-covered ground",
+    "grave markers"
+  ],
+  "estimated_time_period": "20th century",
+  "locations": [
+    "cemetery"
+  ],
+  "reasoning": "The image depicts a cemetery with a statue and monument in the middle of the snow-covered ground. The presence of grave markers and the snowy landscape suggest that the photo was taken during the winter season. The modern architectural style of the monument and statue indicates that this cemetery was likely established in the 20th century. The black and white nature of the photo also supports this time period, as it was common for photographs to be in black and white during the early to mid-20th century.",
+  "description": "A cemetery with a statue and monument in the middle of a snow-covered ground, surrounded by grave markers."
+}
 
+- Bucket Name: "Historic Cemetery"
+- Bucket Features: ["stone grave markers or headstones", "wrought iron or stone fencing", "family plots or mausoleums", "carved inscriptions", "tree-lined paths or gravel lanes", "gateposts or arched entry"]
 
-7/29/25, 3:00 PM
-
-Menomonie’s Historic Wilson Place Mansion Again Welcomes...
-
-,’,
-
-LAY
-n}enomonle
-
-THEME ISSUE
-
-What's good and where to go
-in the gem on the Red Cedar
-
-BROUGHT TO YOU BY
-
-xplore
-WESTconsin  menomonie
-
-é University of
-== Wisconsin-Stout
-? Wisconains Polysechnic University
-
-\
-)
-
-Articles  Events Calendar ~ Restaurants & Taverns  Big List of Local Attractions
-
-Cwstory Toumsn
-
-o 9 ° ° ° °
-Menomonie s Historic Wilson Place Mansion
-Again Welcomes Visitors
-
-19th-century landmark had been closed to public for years
-
-Kyra Price
-
-Wilson Place Mansion today. (Submitted photo)
-
-A historic downtown Menomonie mansion that was home to three generations of lumber
-
-barons is once again open to the public.
-
-An agreement between the current owner of the Wilson Place Mansion, Tim Dotseth, and the Mabel Tainter
-
-Center for the Arts means the Wilson Place will be open for tours on select days and times.
-
-The reopening is viewed as a fundraising opportunity for both the Mabel Tainter and Wilson Place. “We want to
-
-raise money to help restore Wilson Place,” Mabel Tainter Executive Director Lucas Chase said.
-
-https://volumeone.org/sites/menomonie/articles/2024/07/20/345625-menomonies-historic-wilson-place-mansion-again 1/5
-
-7/29/25, 3:00 PM Menomonie’s Historic Wilson Place Mansion Again Welcomes...
-
-share that history,” Chase said. He believes the reopening of Wilson Place offers an informative and
-
-transformative experience for locals and visitors.
-
-Wilson Place Mansion overlooks Broadway Street next to UW-Stout’s North Campus. On the outside, it may
-just look like a yellow building with vintage-style dark paneling that sits behind a metal gate. But Wilson Place
-
-serves as a true relic of historical Menomonie.
-
-Wilson Place, circa 1910. (UW-Stout Archives)
-
-A 1999 Dunn County News article noted “Wilson Place is a journey through generations. ... Dating back to the
-Civil War era, this structure is filled with history. ... Wilson Place and its contents preserve a unique local and
-
-state heritage.”
-
-The Wilson Place belonged to three generations of lumber barons: The Wilsons, the Stouts, and the LaPointes. It
-was eventually purchased by the current owners, the Dotseth family. Melissa Kneeland, executive director of
-the Dunn County Historical Society, said William Wilson was the first mayor of Menomonie and his family
-designed the home to look like a federal-style building. Wilson died in 1892, and the building was named after
-
-him.
-
-Wilson Place was originally built on 22 acres in 1859. It has been remodeled and expanded since then. “There
-
-were 11 marble fireplaces, stained glass, and gaming rooms,” Kneeland said.
-
-https://volumeone.org/sites/menomonie/articles/2024/07/20/345625-menomonies-historic-wilson-place-mansion-again 2/5
-
-Please return a JSON object containing:
+TASK:
+Rate how well this image fits this bucket.
+Return only the following JSON structure:
 {
   "image_title": "filename",
-  "summary": "Short summary of the document",
-  "scene": "Brief scene description",
-  "objects": ["object1", "object2"],
-  "architectural_style": "Architectural style if mentioned or implied",
-  "notable_features": ["feature1", "feature2"],
-  "estimated_time_period": "Rough time period (e.g. 1800s, mid-20th century)",
-  "locations": ["region, city, or environment clues"],
-  "reasoning": "Why you chose these values based on the text"
+  "semantic_confidence_score": 0.72,
+  "tier": "low / medium / high",
+  "reason": "Brief explanation"
 }
-Only output valid, plain text JSON. Do not include anything outside the JSON block. Avoid escape sequences unless absolutely required for content.
-[/INST]
+The confidence score must be a number between 0.0 and 1.0.
+\Return only the following JSON object, nothing else — no Markdown, no backslashes, no formatting:
  [/INST] {
- "image_title": "Menomonie’s Historic Wilson Place Mansion Again Welcomes Visitors",
- "summary": "The historic Wilson Place Mansion in Menomonie, Wisconsin, is once again open to the public after being closed for years. The mansion, which belonged to three generations of lumber barons, is a significant historical landmark and offers an informative and transformative experience. It was originally built in 1859 and features elements such as marble fireplaces, stained glass, and gaming rooms.",
- "scene": "A historical scene featuring the reopening of the Wilson Place Mansion in Menomonie, Wisconsin, to the public",
- "objects": ["Wilson Place Mansion", "Marble fireplaces", "Stained glass", "Gaming rooms"],
- "architectural_style": "Federal-style",
- "notable_features": ["Historical landmark", "Belonged to lumber barons", "Marble fireplaces", "Stained glass", "Gaming rooms"],
- "estimated_time_period": "Late 1800s",
- "locations": ["Menomonie, Wisconsin"]
+  "image\_title": "63726",
+  "semantic\_confidence\_score": 0.85,
+  "tier": "medium",
+  "reason": "The image contains a cemetery scene, and it matches several features in the bucket: snow-covered ground, grave markers, and modern architectural style. The presence of a monument and statue further strengthens the match."
 }
 
 > 

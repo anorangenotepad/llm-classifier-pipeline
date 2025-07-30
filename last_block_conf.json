@@ -4,5 +4,11 @@
     "semantic_confidence_score": 0.6,
     "tier": "medium",
     "reason": "The image shows a large red building with a clock tower and a flag, which is consistent with some elements of the Courthouse or Civic Building bucket (symmetrical facade, for example). However, it does not exhibit a domed roof or grand staircase, and the stone construction is not explicitly stated in the image title or description. Therefore, the semantic confidence score is medium."
+  },
+  {
+    "image_title": "63726",
+    "semantic_confidence_score": 0.85,
+    "tier": "medium",
+    "reason": "The image contains a cemetery scene, and it matches several features in the bucket: snow-covered ground, grave markers, and modern architectural style. The presence of a monument and statue further strengthens the match."
   }
 ]

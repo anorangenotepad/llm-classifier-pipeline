@@ -1,14 +1,14 @@
 [INST] You are a historical records analyst.
 
-image_title: "586bb387-f157-4468-ae91-b47dcb3bbdf4f9809fb6d163bb4204_210810-Caddie-9"
+image_title: "63726"
 Below is the description of an item:
-scene: "A wooden cabin with a sign on the door"
-objects: ["a wooden cabin with a sign on the door"]
-architectural_style: "log cabin"
-notable_features: ["log cabin construction, sign on the door"]
-estimated_time_period: "19th century"
-locations: ["a grassy area with trees in the background"]
-reasoning: "The cabin appears to be a log cabin, which was a popular architectural style in the 19th century. The presence of a sign on the door suggests that it might be a historical site or a place of interest. The grassy area and trees in the background further indicate that the cabin is located in a natural setting, possibly in a rural or remote area."
+scene: "cemetery"
+objects: ["monument", "statue"]
+architectural_style: "modern"
+notable_features: ["snow-covered ground", "grave markers"]
+estimated_time_period: "20th century"
+locations: ["cemetery"]
+reasoning: "The image depicts a cemetery with a statue and monument in the middle of the snow-covered ground. The presence of grave markers and the snowy landscape suggest that the photo was taken during the winter season. The modern architectural style of the monument and statue indicates that this cemetery was likely established in the 20th century. The black and white nature of the photo also supports this time period, as it was common for photographs to be in black and white during the early to mid-20th century."
 
 Here is a list of classification buckets:
 
@@ -22,6 +22,12 @@ Here is a list of classification buckets:
 - Train Depot: ['broad eaves', 'freight loading doors', 'ticket windows', 'central cupola or tower', 'wood or brick construction']
 - Log Cabin: ['horizontal log walls', 'visible chinking', 'stone chimney', 'gable roof', 'simple layout']
 - Courthouse or Civic Building: ['domed roof', 'symmetrical facade', 'stone construction', 'grand staircase', 'columns or pilasters']
+- Transportation Bridge: ['arched or truss design', 'steel or iron framework', 'stone or concrete piers', 'roadbed or railway deck', 'riveted or bolted joints']
+- Historic Storefront: ['large display windows', 'recessed entryway', 'transom windows', 'decorative cornice', 'brick or stone facade', 'cast-iron or wood columns']
+- Historic College Building: ['multi-story masonry construction', 'arched or pedimented entrances', 'symmetrical or axial layout', 'classroom and lecture hall windows', 'cupola or clock tower (optional)', 'stone or brick detailing']
+- Historic Service Station: ['canopy or overhang for vehicles', 'gas pumps in front', 'brick or stucco construction', 'large front windows', 'garage bay doors', 'porcelain enamel signage']
+- Historic Cemetery: ['stone grave markers or headstones', 'wrought iron or stone fencing', 'family plots or mausoleums', 'carved inscriptions', 'tree-lined paths or gravel lanes', 'gateposts or arched entry']
+- Historic Park or Public Square: ['landscaped grounds', 'walking paths or promenades', 'gazebos or bandstands', 'decorative fountains or statues', 'stone benches or retaining walls', 'formal entrances or gates']
 Based on the item's description, choose the most appropriate classification bucket.
 Return only the following JSON structure:
 {
