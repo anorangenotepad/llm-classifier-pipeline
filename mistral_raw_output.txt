@@ -1,13 +1,14 @@
  [INST] [INST] You are a historical records analyst.
 
-image_title: "Menomonie’s Historic Wilson Place Mansion Again Welcomes.._"
+image_title: "63683"
 Below is the description of an item:
-scene: "Interior and exterior of the Wilson Place Mansion"
-objects: ["Wilson Place Mansion", "metal gate"]
-architectural_style: "Federal-style"
-notable_features: ["historical significance", "remodeled and expanded", "eleven marble fireplaces", "stained glass", "gaming rooms"]
-estimated_time_period: "1859-present"
-locations: ["Menomonie, Wisconsin"]
+scene: "City street with old buildings"
+objects: ["cars", "trucks", "people", "parking meters", "signs"]
+architectural_style: "Old-fashioned"
+notable_features: ["brick buildings", "busy street", "parking meters"]
+estimated_time_period: "1950s"
+locations: ["city", "busy intersection"]
+reasoning: "The image depicts a busy city street with old-fashioned buildings, cars, trucks, and people. The presence of parking meters and signs indicates that this is a commercial area. The architectural style of the buildings and the presence of cars and trucks suggest that the image was taken in the 1950s. The busy intersection and the bustling atmosphere of the street further support this time period."
 
 Here is a list of classification buckets:
 
@@ -37,10 +38,10 @@ Return only the following JSON structure:
 }
 Only output valid JSON. Do not include explanations outside the structure.
 [/INST] [/INST] {
-"image_title": "Menomonie’s Historic Wilson Place Mansion Again Welcomes_",
-"best_match": "Historic College Building",
-"confidence_score": "high",
-"reasoning": "The Wilson Place Mansion is described as historical, remodeled and expanded, and located in Menomonie, Wisconsin. The notable features include eleven marble fireplaces, stained glass, and gaming rooms. Federal-style architectural features are also mentioned. These characteristics align with a Historic College Building."
+  "image_title": "63683",
+  "best_match": "Historic Storefront",
+  "confidence_score": "high",
+  "reasoning": "The image depicts a busy city street with old-fashioned buildings and commercial features, including parking meters and signs. The presence of large display windows, recessed entryway, transom windows, decorative cornice, brick or stone facade, and cast-iron or wood columns further supports this classification as a historic storefront."
 }
 
 > 

@@ -1,0 +1,16 @@
+main: loading model: /home/user/Tech/LLM/models/llava/llava-v1.5-13b-Q4_0.gguf
+encoding image or slice...
+image/slice encoded in 3636 ms
+decoding image batch 1/1, n_tokens_batch = 576
+image decoded (batch 1/1) in 103623 ms
+
+ {
+"scene": "A large building with a clock tower",
+"objects": ["A clock tower on the building", "A tree in front of the building"],
+"architectural\_style": "Old-fashioned",
+"notable\_features": ["A clock on the tower", "A tree in front of the building"],
+"estimated\_time\_period": "1900s",
+"locations": ["A large building", "A clock tower", "A tree"],
+"reasoning": "The image is a black and white photo of a large building with a clock tower, suggesting it was taken during the 1900s. The architectural style of the building appears to be old-fashioned, and there is a tree in front of the building, which adds to the overall aesthetic of the scene. The presence of a clock on the tower also indicates that it might have been an important or central building in the area during that time period.",
+"description": "A black and white photo of a large building with a clock tower, taken during the 1900s. The building has an old-fashioned architectural style, and there is a tree in front of it."
+}

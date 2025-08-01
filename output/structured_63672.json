@@ -1,0 +1,16 @@
+main: loading model: /home/user/Tech/LLM/models/llava/llava-v1.5-13b-Q4_0.gguf
+encoding image or slice...
+image/slice encoded in 3766 ms
+decoding image batch 1/1, n_tokens_batch = 576
+image decoded (batch 1/1) in 101709 ms
+
+ {
+"scene": "Old West Street",
+"objects": ["brick building", "car", "businesses"],
+"architectural\_style": "Old West",
+"notable\_features": ["brick building", "businesses"],
+"estimated\_time\_period": "1950s",
+"locations": ["Old West Street"],
+"reasoning": "The image depicts a street scene with a brick building, businesses, and a car parked outside. The architecture and style of the building suggest it is from the 1950s, and the presence of businesses indicates a commercial area. The black and white nature of the photo further supports the notion that it was taken in the past.",
+"description": "The image captures a scene from Old West Street, featuring a brick building, businesses, and a car parked outside. The architecture and style of the building, along with the black and white nature of the photo, suggest that it was taken in the 1950s."
+}

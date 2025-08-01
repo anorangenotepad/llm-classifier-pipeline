@@ -1,0 +1,16 @@
+main: loading model: /home/user/Tech/LLM/models/llava/llava-v1.5-13b-Q4_0.gguf
+encoding image or slice...
+image/slice encoded in 3233 ms
+decoding image batch 1/1, n_tokens_batch = 576
+image decoded (batch 1/1) in 92652 ms
+
+ {
+"scene": "A small town with a fire station and a gas station",
+"objects": ["fire station", "gas station", "house", "tree"],
+"architectural_style": "Old-fashioned",
+"notable_features": ["fire station", "gas station", "house", "tree"],
+"estimated_time_period": "1950s",
+"locations": ["small town"],
+"reasoning": "The image is a black and white photo of a small town, featuring a fire station and a gas station. The architecture of the buildings and the presence of a tree suggest that the photo was taken in the 1950s. The overall atmosphere of the scene is old-fashioned, and the town appears to be located in a rural area.",
+"description": "A black and white photo of a small town, featuring a fire station and a gas station, with a house and a tree nearby."
+}

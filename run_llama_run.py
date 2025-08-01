@@ -149,7 +149,7 @@ if __name__ == "__main__":
     result = run_llama_with_streaming(
         prompt_path=user_prompt_path,
         model_path=BASE_DIR / "models/minstral/mistral-7b-instruct-v0.2.Q4_0.gguf",
-        timeout=200,  # your Goldilocks values: images 100, text 300?
+        timeout=300,  # your Goldilocks values: images 100, text 300?
         verbose=False #set to true when debugging
     )
     #print("\n", result)

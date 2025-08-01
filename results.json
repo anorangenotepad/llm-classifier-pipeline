@@ -28,5 +28,35 @@
     "best_match": "Historic College Building",
     "confidence_score": "high",
     "reasoning": "The Wilson Place Mansion is described as historical, remodeled and expanded, and located in Menomonie, Wisconsin. The notable features include eleven marble fireplaces, stained glass, and gaming rooms. Federal-style architectural features are also mentioned. These characteristics align with a Historic College Building."
+  },
+  {
+    "image_title": "700 4th St W _ National or State Registers Record _ Wisconsin Historical Society",
+    "best_match": "Train Depot",
+    "confidence_score": "high",
+    "reasoning": "The text indicates that the building is a historic train depot, which matches the 'Train Depot' classification."
+  },
+  {
+    "image_title": "images",
+    "best_match": "historic_service_station",
+    "confidence_score": "high",
+    "reasoning": "The image features a small town scene with a fire station and a gas station, which is consistent with the description of a historic service station. The presence of a gas station in particular is a strong indicator, as historic service stations often include gas pumps and canopies or overhangs for vehicles."
+  },
+  {
+    "image_title": "34382",
+    "best_match": "Historic Storefront",
+    "confidence_score": "high",
+    "reasoning": "The building is a large brick structure with a sign on the front, indicating commercial use. This matches the features of a historic storefront."
+  },
+  {
+    "image_title": "63672",
+    "best_match": "Historic Storefront",
+    "confidence_score": "high",
+    "reasoning": "The image contains a brick or stone facade, large display windows, recessed entryway, and decorative cornice, which are characteristic features of historic storefronts."
+  },
+  {
+    "image_title": "63676",
+    "best_match": "Historic Storefront",
+    "confidence_score": "high",
+    "reasoning": "The scene depicts a street with buildings and cars, featuring a notable hotel sign, which is typical for a town or neighborhood. The presence of a barber shop also supports this classification. The old-fashioned architectural style and vintage feel of the image further suggest a historic storefront."
   }
 ]
